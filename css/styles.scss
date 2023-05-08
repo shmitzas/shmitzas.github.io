@@ -1,0 +1,58 @@
+$yellow: #FFE401;
+$dark-gray: #272727;
+$gray: #eee;
+$blue: #0f89df;
+$light-blue: #5898c6;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #fb002e;
+$orange: #fd7e14;
+$yellow-darker: #f0cc00;
+$green: #0cd13a;
+$light-green: #4fd16e;
+$teal: #20c997;
+$cyan: #0dcaf0;
+$white: #fff;
+
+@import "../css/bootstrap/scss/bootstrap.scss";
+
+.text-pink{
+    color: $pink;
+}
+.text-yellow-darker{
+    color: $yellow-darker;
+}
+.text-orange{
+    color: $orange;
+}
+.text-light-green{
+    color: $light-green;
+}
+.bg-light-green{
+    background-color: $light-green;
+}
+.text-light-blue{
+    color: $light-blue;
+}
+.bg-light-blue{
+    background-color: $light-blue;
+}
+.text-small{
+    font-size: 0.8rem !important;
+}
+.bg-dark-gray{
+    background-color: $dark-gray;
+}
+.img-mention{
+    height: 3rem;
+    width: auto;
+    padding: auto;
+    margin: auto;
+    
+}
+
+.navbar-bg-blured {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+  }
