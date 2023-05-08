@@ -11759,6 +11759,10 @@ textarea.form-control-lg {
   background-color: #272727;
 }
 
+.bg-midnight {
+  background-color: #10040D;
+}
+
 .img-mention {
   height: 3rem;
   width: auto;
@@ -11766,8 +11770,8 @@ textarea.form-control-lg {
   margin: auto;
 }
 
-.navbar-bg-blured {
-  background: rgba(0, 0, 0, 0.1);
+.glass {
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=styles.css.map */

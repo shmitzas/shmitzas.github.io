@@ -14,6 +14,7 @@ $light-green: #4fd16e;
 $teal: #20c997;
 $cyan: #0dcaf0;
 $white: #fff;
+$midnight: #10040D;
 
 @import "../css/bootstrap/scss/bootstrap.scss";
 
@@ -44,6 +45,9 @@ $white: #fff;
 .bg-dark-gray{
     background-color: $dark-gray;
 }
+.bg-midnight{
+    background-color: $midnight;
+}
 .img-mention{
     height: 3rem;
     width: auto;
@@ -52,7 +56,8 @@ $white: #fff;
     
 }
 
-.navbar-bg-blured {
-    background: rgba(0, 0, 0, 0.1);
+.glass{
     backdrop-filter: blur(10px);
-  }
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+}
