@@ -11735,6 +11735,10 @@ textarea.form-control-lg {
   color: #fd7e14;
 }
 
+.text-red {
+  color: #fb002e;
+}
+
 .text-light-green {
   color: #4fd16e;
 }
