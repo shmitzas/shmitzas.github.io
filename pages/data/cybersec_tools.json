@@ -1,0 +1,16 @@
+{
+    "Newtworking":[
+        {
+            "tool":"Nmap",
+            "url":"https://nmap.org/",
+            "desc":"description"
+        }
+    ],
+    "OSINT":[
+        {
+            "tool":"Sherlock",
+            "url":"https://github.com/sherlock-project/sherlock",
+            "desc":"description"
+        }
+    ]
+}
