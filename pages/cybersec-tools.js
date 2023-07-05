@@ -1,18 +1,18 @@
 // Get a reference to the container element where you want to add the tables
-const mainContainer = document.getElementById("main");
-const csContainer = document.getElementById("cheatsheet");
+const container = document.getElementById("main");
 // Fetch data from data.json
 fetch("data/cybersec_tools.json")
   .then(response => response.json())
   .then(data => {
     // Loop through each category in the data
     for (const category in data) {
-        
+        let categories = `<div class="col-12"><h4 class="mt-5 mb-3">${category}</h4></div>`
         let tableInfo =`
         <table class="table">
             <thead>
                 <tr>
                     <th scope="col" class="col-2">Name</th>
+                    <th scope="col" class="col-2">Cheat-sheet</th>
                     <th scope="col" class="col-10">Description</th>
                 </tr>
             </thead>
@@ -22,6 +22,7 @@ fetch("data/cybersec_tools.json")
             tableInfo +=`
                 <tr>
                     <td scope="row"><a href="${item.url}" class="text-decoration-none">${item.tool}</a></td>
+                    <td scope="row"><a href="${item.cheat_sheet_url}" class="text-decoration-none">Link</a></td>
                     <td class="text-decoration-none">${item.desc}</td>
                 </tr>`;
         }
@@ -29,7 +30,8 @@ fetch("data/cybersec_tools.json")
         tableInfo +=`
             </tbody>
         </table>`;
-        csContainer.innerHTML += tableInfo;
+        container.innerHTML += categories;
+        container.innerHTML += tableInfo;
     } 
   })
   .catch(error => console.error(error));

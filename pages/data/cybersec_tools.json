@@ -3,14 +3,22 @@
         {
             "tool":"Nmap",
             "url":"https://nmap.org/",
-            "desc":"description"
+            "cheat_sheet_url":"https://www.stationx.net/nmap-cheat-sheet/",
+            "desc":"A free and open-source tool used for network exploration, management, and security auditing"
+        },
+        {
+            "tool":"NetCat",
+            "url":"https://www.commandlinux.com/man-page/man1/nc.1.html",
+            "cheat_sheet_url":"https://quickref.me/nc.html",
+            "desc":"A command-line tool used for reading, writing, and troubleshooting network connections, acting as a client or server for TCP or UDP connections"
         }
     ],
     "OSINT":[
         {
             "tool":"Sherlock",
             "url":"https://github.com/sherlock-project/sherlock",
-            "desc":"description"
+            "cheat_sheet_url":"https://cheatography.com/sir-slammington/cheat-sheets/sherlock-python/",
+            "desc":"Hunts down social media accounts by username across social networks"
         }
     ]
 }
