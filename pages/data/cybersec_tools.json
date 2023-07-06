@@ -13,6 +13,28 @@
             "desc":"A command-line tool used for reading, writing, and troubleshooting network connections, acting as a client or server for TCP or UDP connections"
         }
     ],
+    "Threat hunting":[
+        {
+            "tool":"Security Onion",
+            "url":"https://docs.securityonion.net/en/2.3/",
+            "cheat_sheet_url":"https://github.com/Security-Onion-Solutions/security-onion/wiki/Cheat-Sheet",
+            "desc":"A free and open Linux distribution for threat hunting, enterprise security monitoring, and log management"
+        },
+        {
+            "tool":"GrayLog",
+            "url":"https://www.graylog.org/",
+            "cheat_sheet_url":"https://go2docs.graylog.org/5-0/home.htm",
+            "desc":"Allows to combine, enrich, correlate, query, and visualize all your log data in one place"
+        }
+    ],
+    "EndPoint monotoring":[
+        {
+            "tool":"Wazuh",
+            "url":"https://wazuh.com/",
+            "cheat_sheet_url":"https://wazuh.com/",
+            "desc":"Managed, ready-to-use, and highly scalable cloud environments for security monitoring and endpoint protection"
+        }
+    ],
     "OSINT":[
         {
             "tool":"Sherlock",
