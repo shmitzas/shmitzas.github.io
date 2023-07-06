@@ -27,7 +27,7 @@
             "desc":"Allows to combine, enrich, correlate, query, and visualize all your log data in one place"
         }
     ],
-    "EndPoint monotoring":[
+    "EndPoint monitoring":[
         {
             "tool":"Wazuh",
             "url":"https://wazuh.com/",
