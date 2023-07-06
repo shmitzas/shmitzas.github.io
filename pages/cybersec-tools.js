@@ -22,7 +22,7 @@ fetch("data/cybersec_tools.json")
             tableInfo +=`
                 <tr>
                     <td scope="row"><a href="${item.url}" class="text-decoration-none">${item.tool}</a></td>
-                    <td scope="row"><a href="${item.cheat_sheet_url}" class="text-decoration-none">Link</a></td>
+                    <td scope="row"><a href="${item.cheat_sheet_url}" target="_blank" class="text-decoration-none">Link</a></td>
                     <td class="text-decoration-none">${item.desc}</td>
                 </tr>`;
         }
