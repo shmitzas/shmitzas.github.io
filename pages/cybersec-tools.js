@@ -21,7 +21,7 @@ fetch("data/cybersec_tools.json")
         for (const item of data[category]) {
             tableInfo +=`
                 <tr>
-                    <td scope="row"><a href="${item.url} target="_blank"" class="text-decoration-none">${item.tool}</a></td>
+                    <td scope="row"><a href="${item.url}" target="_blank" class="text-decoration-none">${item.tool}</a></td>
                     <td scope="row"><a href="${item.cheat_sheet_url}" target="_blank" class="text-decoration-none">Link</a></td>
                     <td class="text-decoration-none">${item.desc}</td>
                 </tr>`;
